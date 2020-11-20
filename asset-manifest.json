@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/deploy-mbs/static/css/main.213a2a6a.chunk.css",
+    "main.css": "/deploy-mbs/static/css/main.27866e6e.chunk.css",
     "main.js": "/deploy-mbs/static/js/main.dff688fd.chunk.js",
     "main.js.map": "/deploy-mbs/static/js/main.dff688fd.chunk.js.map",
     "runtime-main.js": "/deploy-mbs/static/js/runtime-main.33db88d4.js",
@@ -10,7 +10,7 @@
     "static/js/2.5edae9c1.chunk.js.map": "/deploy-mbs/static/js/2.5edae9c1.chunk.js.map",
     "index.html": "/deploy-mbs/index.html",
     "static/css/2.84f8f0a1.chunk.css.map": "/deploy-mbs/static/css/2.84f8f0a1.chunk.css.map",
-    "static/css/main.213a2a6a.chunk.css.map": "/deploy-mbs/static/css/main.213a2a6a.chunk.css.map",
+    "static/css/main.27866e6e.chunk.css.map": "/deploy-mbs/static/css/main.27866e6e.chunk.css.map",
     "static/js/2.5edae9c1.chunk.js.LICENSE.txt": "/deploy-mbs/static/js/2.5edae9c1.chunk.js.LICENSE.txt",
     "static/media/Application.a68c0cae.svg": "/deploy-mbs/static/media/Application.a68c0cae.svg",
     "static/media/Group294.f0563603.svg": "/deploy-mbs/static/media/Group294.f0563603.svg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.33db88d4.js",
     "static/css/2.84f8f0a1.chunk.css",
     "static/js/2.5edae9c1.chunk.js",
-    "static/css/main.213a2a6a.chunk.css",
+    "static/css/main.27866e6e.chunk.css",
     "static/js/main.dff688fd.chunk.js"
   ]
 }
