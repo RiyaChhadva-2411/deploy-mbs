@@ -1,12 +1,15 @@
-  
 import React, { Component } from "react";
+import money from "../svg/money.svg";
+import moneypot from "../svg/moneypot.svg";
+import screen from "../svg/screen.svg";
+import hands from "../svg/hands.svg";
 import image3 from "../images/image3.jpeg";
 import image4 from "../images/image4.jpeg";
 import image5 from "../images/image5.jpeg";
 import Carousel from "react-spring-3d-carousel";
 import { v4 as uuid } from "uuid";
 import { config } from "react-spring";
-
+import "./Carousel.css"
 export default class CarouselClass extends Component {
   state = {
     goToSlide: 0,
@@ -18,36 +21,89 @@ export default class CarouselClass extends Component {
   slides = [
     {
       key: uuid(),
-      content: <img src={image3} alt="1" />,
+      content: 
+      <div className="container"> 
+        <div className="cards">
+          <div className="circle">
+            <span className="num">1</span>
+          </div>
+          <div className="rect">
+            <div className="rect_small">
+              <div className="Cards_col-1">
+                <img src={money} alt="1" />
+              </div>
+              <div className="Cards_col-2">
+                <span className="Text">To provide financial support to the members</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+,
     },
     {
       key: uuid(),
-      content: <img src={image4} alt="2" />,
+      content: 
+      <div className="container"> 
+        <div className="cards">
+          <div className="circle">
+            <span className="num">2</span>
+          </div>
+          <div className="rect">
+            <div className="rect_small">
+              <div className="Cards_col-1">
+                <img src={moneypot} alt="2" />
+              </div>
+              <div className="Cards_col-2">
+                <span className="Text">To provide the habit of thrift amongst the members</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     },
     {
       key: uuid(),
-      content: <img src={image5} alt="3" />,
-    },
+      content: 
+      <div className="container"> 
+      <div className="cards">
+        <div className="circle">
+          <span className="num">3</span>
+        </div>
+        <div className="rect">
+          <div className="rect_small">
+            <div className="Cards_col-1">
+              <img src={screen} alt="3" />
+            </div>
+            <div className="Cards_col-2">
+              <span className="Text">To encourage financial planning amongst the members</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     },
     {
       key: uuid(),
-      content: <img src={image3} alt="4" />,
+      content: <div className="container"> 
+      <div className="cards">
+        <div className="circle">
+          <span className="num">4</span>
+        </div>
+        <div className="rect">
+          <div className="rect_small">
+            <div className="Cards_col-1">
+              <img src={hands} alt="4" />
+            </div>
+            <div className="Cards_col-2">
+              <span className="Text">To support the activites of NIMA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     },
-    {
-      key: uuid(),
-      content: <img src={image4} alt="5" />,
-    },
-    {
-      key: uuid(),
-      content: <img src={image5} alt="6" />,
-    },
-    {
-      key: uuid(),
-      content: <img src={image3} alt="7" />,
-    },
-    {
-      key: uuid(),
-      content: <img src={image3} alt="8" />,
-    },
+    
   ].map((slide, index) => {
     return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
   });
