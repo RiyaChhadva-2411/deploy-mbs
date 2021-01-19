@@ -2,7 +2,7 @@
     padding-top: 114px;
     padding-bottom: 95px;
     font-family: "Poppins", sans-serif;
-    background: url("../images/Wave.svg"), #f6f6f6;
+    /* background: url("../images/Wave.svg"), #f6f6f6; */
     background-repeat: no-repeat;
   }
   /*desktops*/
@@ -316,8 +316,8 @@
       padding-top: 25px;
       padding-bottom: 95px;
       font-family: "Poppins", sans-serif;
-      background: url("../images/Wave.svg"), #f6f6f6;
-      background-repeat: no-repeat;
+      /* background: url("../images/Wave.svg"), #f6f6f6; */
+      /* background-repeat: no-repeat; */
       
     }
     .Search__txthead {
