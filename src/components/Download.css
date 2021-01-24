@@ -6,10 +6,17 @@
     
     font-family: 'Poppins', sans-serif !important;
 }
+.Download__information{
+  width: 517px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  padding-top: 20px;
+}
 .Download_container {
   max-width: 100%;
   background-color: #F9FCFF!important;
-  padding-left: 70px;
+  padding-left: 74px;
   padding-right: 40px;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 60px;
@@ -91,7 +98,14 @@
       padding-top: 50px;
       padding-bottom: 15px;
   }
-
+  .Download__information{
+    width:80vw;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    padding-top: 30px;
+    margin: auto;
+  }
   .mobile-card-container > .row {
       overflow-x: auto;
   }
@@ -174,7 +188,14 @@
     .caro {
     padding-left: 1rem;
 } 
-
+.Download__information{
+  width:80vw;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  padding-top: 30px;
+  margin-left: 0px;
+}
     .react-multi-carousel-item {
       margin-right: 10px;
       }
@@ -252,7 +273,14 @@
     .caro {
       padding-left: 5rem;
   } 
-  
+  .Download__information{
+    width:60vw;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    padding-top: 30px;
+    margin-left: 0px;
+  }
     .react-multi-carousel-item {
       margin-right: -40px;
       }

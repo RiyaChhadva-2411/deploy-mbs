@@ -2,7 +2,8 @@
     padding-top: 114px;
     padding-bottom: 95px;
     font-family: "Poppins", sans-serif;
-    /* background: url("../images/Wave.svg"), #f6f6f6; */
+    /* background: url("../images/Wave.svg"),*/
+    background-color: #f6f6f6;
     background-repeat: no-repeat;
   }
   /*desktops*/
@@ -399,14 +400,16 @@
     .Search__table td {
       border: 1px solid #cdcdcd;
       padding-bottom: 18px;
-      padding-right: 61px;
+      padding-right: 0px;
     }
     .Search__title {
       padding-left: 16px;
       padding-top: 18px;
+      width: 309px;
     }
     .Search__data {
-      width: 500px;
+      width: 300px;
+      padding: 20px 0px 0px 10px;
     }
     .Search__table tr:first-child td {
       border-top: 0;

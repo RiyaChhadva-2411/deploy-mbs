@@ -163,7 +163,7 @@ class Slider extends React.Component {
         </div>
                 <p className="Slider_fname">{bmember.name}</p>
                 <p className="Slider_address">{bmember.address}</p>
-                <p className="Slider_phone">{bmember.phone}</p>
+                <p className="Slider_phone"><svg className="Slider__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg> {bmember.phone}</p>
         </div>
         )
     }
@@ -236,7 +236,7 @@ class Slider extends React.Component {
         </div>
         <p className="Slider_fname">{member.name}</p>
         <p className="Slider_address">{member.address}</p>
-        <p className="Slider_phone">{member.phone}</p>
+        <p className="Slider_phone"><svg className="Slider__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg> {member.phone}</p>
         </div>
         )
     }
@@ -274,7 +274,7 @@ class Slider extends React.Component {
         </div>
         <p className="Slider_fname">{officio.name}</p>
         <p className="Slider_address">{officio.address}</p>
-        <p className="Slider_phone">{officio.phone}</p>
+        <p className="Slider_phone"><svg className="Slider__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg> {officio.phone}</p>
         </div>
         )
     }

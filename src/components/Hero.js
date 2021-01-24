@@ -7,6 +7,7 @@ import hero from '../svg/Hero.svg';
 function Hero(){
     return(
         <div className="Hero_container">
+          <hr className="Hero__hr"/>
           <div className="row align-items-center">
             <div className="align-items-center  col-md-4 col-sm-4 col-xs-12">
                 <div className="Hero_firstcol">

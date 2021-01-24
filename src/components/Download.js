@@ -13,7 +13,7 @@ class Download extends React.Component {
     return (
     
       <div className="Download_container mobile-card-container">
-      
+      <div className="Download__information">Mutual Benefit Scheme was introduced by National integrated Medical Association for NIMA Members</div>
       <div className="row text-center flex-nowrap flex-sm-wrap Download_row_styling">  
 
           <div className="col-10 col-sm-3 Download_mx-sm-auto card">

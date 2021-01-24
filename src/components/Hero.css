@@ -9,14 +9,17 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     padding-right: 50px;
 }
 
-
+.Hero__hr{
+    border-color: black;
+    margin-top: 100px;
+}
 /*Main two columns of the hero section*/
 
 .Hero_firstcol{
     margin-left: 0px;
     margin-top: 0px;
     padding-left: 0px;
-    padding-top: 142px;
+    padding-top: 42px;
 }
 .Hero_secondcol{
     margin-left: 0px;
@@ -54,6 +57,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
 }
 .button{
     font-size: 18px;
+    margin-top: 59px;
 }
 
 /* for the svg icon on the right side */
@@ -76,7 +80,9 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
         padding-left: 15px;
         padding-right: 5px;
     }
-    
+    .Hero__hr{
+        display: none;
+    }
     .Hero_firstcol{
         margin-left: 0px;
         margin-top: 10px;
@@ -103,7 +109,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     .button{
         font-size:13px;
         margin-left: -18px;
-        margin-top: 10px;
+        margin-top: 10px !important;
         color: #2541B2;
     }
     .Hero_herosvg{
@@ -124,7 +130,8 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
 @media (min-width: 576px) and (max-width: 800px){
     .Hero_firstcol{
         margin-left: 50px;
-        margin-top: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
     }
     .Hero_secondcol{
         margin-left: 0px;
@@ -146,7 +153,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     .button{
         font-size:18px;
         margin-left: -11px;
-        margin-top: 10px;
+        margin-top: 10px !important;
         color: #2541B2;
     }
     .Hero_arrowsvg{
@@ -157,7 +164,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     }
     .Hero_herosvg{
         height: auto;
-        width: 110%;
+        width: 120%;
     }
 }
 
@@ -165,15 +172,16 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
 @media(min-width: 800px) and (max-width: 1200px){
     .Hero_firstcol{
         margin-left: 70px;
-        margin-top: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
     }
     .Hero_secondcol{
-        margin-left: 40px;
+        margin-left: 0px;
         margin-right: 10px;
         margin-top: 50px;
     }
     .Hero_first{
-        margin-top: 50px;
+        margin-top: 10px;
         font-size: 30px;
         font-family: 'Poppins', sans-serif;
         font-weight: 300 !important;
@@ -186,7 +194,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     .button{
         font-size:22px;
         margin-left: -9px;
-        margin-top: 10px;
+        margin-top: 10px !important;
         color: #2541B2;
     }
     .Hero_arrowsvg{
@@ -198,5 +206,6 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     .Hero_herosvg{
         height: auto;
         width: 100%;
+        margin-top: -13rem;
     }
 }

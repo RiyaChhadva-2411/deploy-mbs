@@ -5,6 +5,9 @@
 .Slider_column{
   padding-right: 0px !important;
 }
+.offset-md-3{
+  padding-right: 0px;
+}
 .Slider_bmembers{
   width: 550px;
   height: 51px;
@@ -132,6 +135,11 @@
      margin-top: 90px;
      margin-bottom:0px;
     }
+    .Slider__svg{
+      width: 9px;
+      height: 9px;
+      color: #000000;
+    }
     .Slider_members{
       width: 220px;
       height: 29px;
@@ -240,6 +248,11 @@
      margin-top: 90px;
      margin-bottom:0px;
     }
+    .Slider__svg{
+      width: 13px;
+      height: 13px;
+      color: #000000;
+    }
     .Slider_members{
       width: 300px;
       height: 29px;
@@ -333,6 +346,11 @@
     .Slider_photo{
       position: relative;
       max-width: 100%;
+    }
+    .Slider__svg{
+      width: 15px;
+      height: 15px;
+      color: #000000;
     }
     .Slider_bmembers{
       width: 550px;
