@@ -15,7 +15,7 @@ function Hero(){
                 <div className="Hero_second"><span className="Hero_initial">M</span>utual</div>
                 <div className="Hero_second"><span className="Hero_initial">B</span>enefits</div>
                 <div className="Hero_second"><span className="Hero_initial">S</span>cheme</div>
-                <button type="button" class="btn btn-link button">DOWNLOAD BROCHURE  <img className="Hero_arrowsvg"src={svg94}/></button>
+                <button type="button" class="btn btn-link button">DOWNLOAD BROCHURE  <img className="Hero_arrowsvg img-fluid"src={svg94}/></button>
             </div>
             </div>
             <div class="col-md-8 col-sm-8 col-xs-12">
