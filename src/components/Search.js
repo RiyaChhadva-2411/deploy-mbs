@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./Search.css";
+import {getForumData} from '../ApiHandling/GetData';
 
 class Search extends Component {
   constructor(props) {
@@ -8,21 +9,21 @@ class Search extends Component {
       doctors: [
         {
           name: "DR. SHANTILAL KISHAN SHARMA",
-          MBSNumber: "7894563210",
+          mbsNum: "7894563210",
           branch: "Pune",
           state: "Maharashtra",
           status: "Chairman",
         },
         {
           name: "DR. KIRAN DESHPANDE",
-          MBSNumber: "7894563210",
+          mbsNum: "7894563210",
           branch: "Kharnar",
           state: "Hyderabad",
           status: "Convenor",
         },
         {
           name: "DR. DINESH RATHI",
-          MBSNumber: "7894563210",
+          mbsNum: "7894563210",
           branch: "Panji",
           state: "Goa",
           status: "Treasurer",
@@ -34,6 +35,14 @@ class Search extends Component {
       doctorName: "",
     };
   }
+
+
+async componentDidMount(){
+  const response = await getForumData();
+  console.log(response.data.data);
+  this.setState({doctors:response.data.data})
+}
+
 
   handleChangeBranch = (event) => {
     this.setState({ branch: event.target.value });
@@ -152,7 +161,7 @@ class Search extends Component {
                 <tr>
                   <td className="Search__title">MBS Number</td>
                   <td className="Search__data">
-                    {this.state.currentDoctor.MBSNumber}
+                    {this.state.currentDoctor.mbsNum}
                   </td>
                 </tr>
                 <tr>
