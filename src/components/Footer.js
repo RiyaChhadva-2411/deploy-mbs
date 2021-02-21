@@ -13,6 +13,8 @@ function Footer(){
              <div>3:00pm - 5:00pm</div>
              <div>Sunday closed</div>
          </div>
+         <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div>
+
       </div>
     );
 }

@@ -20,6 +20,16 @@
    color: #000000;
    margin-bottom: 200px;
 }
+
+.footer_upcloud{
+    display: flex;
+    justify-content: flex-start;
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 5%;
+  }
 /*For small devices*/
 @media(max-width: 576px){
     .Footer__heading{
@@ -41,6 +51,10 @@
         font-weight: normal;
         color: #000000;
         margin-bottom: 200px;
+    }
+
+    .footer_upcloud{
+        font-size: 14px  !important;
     }
 }
 
