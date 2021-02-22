@@ -1,9 +1,11 @@
 .Search__MainDiv {
     padding-top: 114px;
-    padding-bottom: 95px;
+    padding-bottom: 140px;
     font-family: "Poppins", sans-serif;
-    /* background: url("../images/Wave.svg"),*/
+    background: url("/src/svg/Wave-Image.png");
     background-color: #f6f6f6;
+    background-size: 100% 100%;
+    background-position:bottom center;
     background-repeat: no-repeat;
   }
   /*desktops*/
@@ -36,10 +38,12 @@
   
     .Search__select {
       width: 400px;
-      height: 53px;
+      height: 53px !important;
+      border: none !important;
       background: #ffffff;
       box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
       border-radius: 5px;
+      padding: .375rem 1.5rem !important;
     }
   
     .Search__btn {
@@ -137,10 +141,11 @@
   
     .Search__select {
       width: 300px;
-      height: 53px;
+      height: 53px !important;
       background: #ffffff;
       box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
       border-radius: 5px;
+      padding: .375rem 1.5rem !important;
     }
   
     .Search__btn {
@@ -239,10 +244,12 @@
   
     .Search__select {
       width: 220px;
-      height: 53px;
+      height: 53px  !important;
       background: #ffffff;
+      border: none;
       box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
       border-radius: 5px;
+      padding: .375rem 1.5rem;
     }
   
     .Search__btn {
@@ -317,10 +324,14 @@
       padding-top: 25px;
       padding-bottom: 95px;
       font-family: "Poppins", sans-serif;
-      /* background: url("../images/Wave.svg"), #f6f6f6; */
-      /* background-repeat: no-repeat; */
-      
+      background: url("/src/svg/WaveMobile.png");
+      background-color: #f6f6f6;
+      background-size: 100% 100%;
+      background-position:bottom center;
+      background-repeat: no-repeat;
     }
+
+  
     .Search__txthead {
       font-family: "Poppins", sans-serif;
       font-style: normal;

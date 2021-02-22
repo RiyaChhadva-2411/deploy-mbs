@@ -27,7 +27,10 @@
     font-weight:600;
     padding:20px;
     margin-left: 5%;
+    font-size: 18px;
 }
+
+
 /*For small devices*/
 @media(max-width: 576px){
     .Footer__heading{
@@ -53,6 +56,10 @@
     .footer_upcloud{
         font-size: 14px !important;
         margin-left: 5%;
+    }
+
+    .footer_upcloud{
+        font-size: 14px !important;
     }
 }
 
